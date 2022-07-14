@@ -39,8 +39,9 @@ CREATE TABLE `tb_admin` (
 --
 
 INSERT INTO `tb_admin` (`id_admin`, `nama_admin`, `username_admin`, `password`, `gambar`) VALUES
-(1, 'admin', 'admin', 'd033e22ae348aeb5660fc2140aec35850c4da997', 'admin.jpg'),
-(2, 'admin2', 'admin2', '315f166c5aca63a157f7d41007675cb44a948b33', 'admin2.jpg');
+(1, 'admin', 'admin', 'admin', 'admin','admin.jpg'),
+(2, 'admin2', 'admin2', 'admin2', 'admin2juga', 'admin2.jpg');
+
 
 -- --------------------------------------------------------
 
