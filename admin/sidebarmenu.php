@@ -7,7 +7,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.php" class="site_title"><i class="fa fa-institution"></i> <span> Arsip Surat</span></a>
+              <a href="index.php" class="site_title"><i class="fa fa-institution"></i> <span> E-Register Ortala</span></a>
             </div>
 
             <div class="clearfix"></div>
@@ -36,7 +36,7 @@
                       <li><a href="datasuratkeluar.php"><i class="fa fa-send"></i>Surat Keluar</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-users"></i> Bagian <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-users"></i> Edit Bagian <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="databagian.php"><i class="fa  fa-inbox"></i>Data Bagian</a></li>
                     </ul>

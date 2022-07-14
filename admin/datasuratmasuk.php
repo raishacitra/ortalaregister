@@ -11,7 +11,7 @@ include "login/ceksession.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Arsip Surat Kota Samarinda </title>
+    <title>E-Register Ortala </title>
 
     <!-- Bootstrap -->
     <link href="../assets/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -94,7 +94,7 @@ include "login/ceksession.php";
                             ?>
                           </select>
                         </div>
-                  <button type="submit" class="btn btn-success"><i class="fa fa-download"></i> Unduh Laporan Surat Masuk</button></a>
+               
                   <a href="inputsuratmasuk.php"><button type="button" class="btn btn-success"><i class="fa fa-plus"></i> Tambah Surat Masuk</button></a>
                   </form>
                   <div class="x_content">
@@ -111,9 +111,9 @@ include "login/ceksession.php";
                     <table id="datatable" class="table table-striped table-bordered">
                       <thead>
                         <tr>
-                          <th width="3%">No Urut</th>
+                          <th width="3%">No Agenda</th>
                           <th width="10%">Tanggal Masuk</th>
-                          <th width="3%">Kode Surat</th>
+                          <th width="3%">Nomor Ordner</th>
                           <th width="10%">Tanggal Surat</th>
                           <th width="14%">Pengirim</th>
                           <th width="15%">Nomor Surat</th>
@@ -138,7 +138,6 @@ include "login/ceksession.php";
                               <td>  '. $data['perihal_suratmasuk'].'  </td> 
                               <td style="text-align:center;">
                               <a href= surat_masuk/'.$data['file_suratmasuk'].'><button type="button" title="Unduh File" class="btn btn-success btn-xs"><i class="fa fa-download"></i></button></a>
-                              <a href= downloaddisposisi.php?id_suratmasuk='.$data['id_suratmasuk'].'><button type="button" title="Unduh Disposisi" class="btn btn-info btn-xs"><i class="fa fa-download"></i></button></a>
                               <a href=detail-suratmasuk.php?id_suratmasuk='.$data['id_suratmasuk'].'><button type="button" title="Detail" class="btn btn-info btn-xs"><i class="fa fa-file-image-o"></i></button></a>
                               <a href=editsuratmasuk.php?id_suratmasuk='.$data['id_suratmasuk'].'><button type="button" title="Edit" class="btn btn-default btn-xs"><i class="fa fa-edit"></i></button></a>
                               <a onclick="return konfirmasi()" href="proses/proses_hapussuratmasuk.php?id_suratmasuk='.$data['id_suratmasuk'].'"><button type="button" title="Hapus" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></button></a></td>

@@ -11,7 +11,7 @@ include "login/ceksession.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	  
-    <title>Arsip Surat Kota Samarinda </title>
+    <title>E-Register Ortala </title>
 
     <!-- Bootstrap -->
     <link href="../assets/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -88,11 +88,11 @@ include "login/ceksession.php";
                         </div>
                       </div>
                       <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Kode Surat <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Nomor Ordner <span class="required">*</span>
                         </label>
                         <div class="col-md-9 col-sm-9 col-xs-12">
                           <input type="text" onkeyup="validAngka(this)" id="kode_suratkeluar" name="kode_suratkeluar" required="required" maxlength="7" placeholder="Masukkan Kode Surat" class="form-control col-md-7 col-xs-12">
-                          <br><a href= "file/kode_klasifikasi_surat.xlsx"><b>Lihat Kode Klasifikasi Surat</b></a></br>
+                      
                         </div>
                       </div>
                       <?php include '../koneksi/koneksi.php';
@@ -116,11 +116,11 @@ include "login/ceksession.php";
                         </label>
                         <div class="col-md-9 col-sm-9 col-xs-12">
                           <input value="<?php echo "$nomorbaru"?>" type="text" id="nomor_suratkeluar" name="nomor_suratkeluar" required="required" maxlength="35" placeholder="Masukkan Nomor Surat" class="form-control col-md-7 col-xs-12">
-                          <br>4 Digit Awal merupakan Nomor Surat (Pastikan Lihat Nomor Sebelumnya)</br>
+                          
                         </div>
                       </div>
                       <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Bagian <span class="required">*</span> </label>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Dari <span class="required">*</span> </label>
                         <div class="col-md-9 col-sm-9 col-xs-12">
                           <select name="nama_bagian" class="select2_single form-control" tabindex="-1">
                             <option></option>

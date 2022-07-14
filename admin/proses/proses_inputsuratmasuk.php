@@ -31,11 +31,11 @@
 	
     $tgl_masuk                  = date('Y-m-d H:i:s', strtotime($tanggalmasuk_suratmasuk));
     $tgl_surat                  = date('Y-m-d', strtotime($tanggalsurat_suratmasuk));
-    $tgl_disp1                  = date('Y-m-d H:i:s', strtotime($tanggal_disposisi1));
+    //$tgl_disp1                  = date('Y-m-d H:i:s', strtotime($tanggal_disposisi1));
     $tgl_disp2                  = date('Y-m-d H:i:s', strtotime($tanggal_disposisi2));
     $tgl_disp3                  = date('Y-m-d H:i:s', strtotime($tanggal_disposisi3));
 	
-    if (!($tgl_masuk=='') and !($kode_suratmasuk =='') and !($nomorurut_suratmasuk  =='') and !($nomor_suratmasuk =='') and !($tgl_surat =='') and !($pengirim =='')  and !($kepada_suratmasuk =='') and !($perihal_suratmasuk =='') and !($operator =='') and !($tanggal_entry =='') and !($disposisi1 =='') and !($tgl_disp1 =='') and !($disposisi3 =='') and !($tgl_disp3 =='') and   
+    if (!($tgl_masuk=='') and !($kode_suratmasuk =='') and !($nomorurut_suratmasuk  =='') and !($nomor_suratmasuk =='') and !($tgl_surat =='') and !($pengirim =='')  and !($kepada_suratmasuk =='') and !($perihal_suratmasuk =='') and !($operator =='') and !($tanggal_entry =='') and !($disposisi1 =='') and !($disposisi3 =='') and !($tgl_disp3 =='') and   
 		($tipe_file == "application/pdf") and ($ukuran_file <= 10340000)){		
 		
 		$nama_baru = $thnNow.'-'.$nomorurut_suratmasuk . $ext_file;

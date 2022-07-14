@@ -53,8 +53,8 @@
 
               <div class="separator">
                 <div>
-                  <h2><i class="fa fa-institution"></i> PEMKOT SAMARINDA</h2>
-                  <p>©2017 ILMU KOMPUTER UNMUL</p>
+                  <h2><i class="fa fa-institution"></i> KEJAKSAAN AGUNG</h2>
+                  <p>©2017 Bagian Organisasi dan Tata Laksana</p>
                 </div>
               </div>
             </form>
